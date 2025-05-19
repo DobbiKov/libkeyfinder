@@ -21,7 +21,7 @@ add_library(keyfinder
   src/windowfunctions.cpp
   src/workspace.cpp
   src/constants.cpp
-  src/wrapper.cpp
+  src/keyfinder_c_api.cpp
 )
 
 set_target_properties(keyfinder PROPERTIES
